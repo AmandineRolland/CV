@@ -1,9 +1,4 @@
 body{
-    border: 1rem solid black;
-}
-main{
-    border: .5rem solid rgba(248, 81, 198, 0.955);
-}
-section{
-    border: .5rem solid blue;
+    background: #D0D3D4;
+
 }

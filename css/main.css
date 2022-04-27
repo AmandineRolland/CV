@@ -1,5 +1,5 @@
 body{
-    background: grey;
+    background: #D0D3D4;
     /* border: .2rem solid rgb(239, 19, 19); */
 }
 header{
@@ -9,7 +9,8 @@ header{
     display: flex;
     justify-content: space-around;
     padding: .5rem;
-    /* position: fixed; */
+    /* position: sticky;
+    top: 0px; */
 }
 #hgauche{
     width: 40vh;
@@ -17,6 +18,8 @@ header{
     display: contents;
     align-items: center;
     padding: .4rem;
+    /* position: sticky;
+    top: 0px; */
 }
 #hdroit{
     width: 100vh;
@@ -26,6 +29,8 @@ header{
 main{
     display: flex;
     justify-content: left;
+    /* position: sticky; */
+    /* top: 0px; */
 }
 section{
     /* border: .1rem solid black; */
@@ -38,6 +43,8 @@ section{
     padding-left: 1rem;
     border-right: .1rem solid rgb(206, 206, 206);
     /* float: left;    */
+    position: sticky;
+    top: 0px;
 }
 #encartd{
     /* border: .1rem solid rgb(192, 236, 255); */
